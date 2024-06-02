@@ -12,11 +12,27 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "doc-comment-generator.helloWorld",
-      "title": "Hello World"
-    }]
-  },
+    "commands": [
+        {
+            "command": "doc-comment-generator.generateDocComment",
+            "title": "Generate Doc Comment"
+        },
+        {
+            "command": "doc-comment-generator.generateDocCommentContext",
+            "title": "Generate Doc Comment",
+            "category": "Doc Comment Generator"
+        }
+    ],
+    "menus": {
+        "editor/context": [
+            {
+                "command": "doc-comment-generator.generateDocCommentContext",
+                "when": "editorTextFocus && editorLangId == 'javascript' || editorLangId == 'typescript' || editorLangId == 'python' || editorLangId == 'csharp'",
+                "group": "navigation"
+            }
+        ]
+    }
+},
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
