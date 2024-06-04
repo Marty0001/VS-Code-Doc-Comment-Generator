@@ -2,7 +2,7 @@
   "name": "doc-comment-generator",
   "displayName": "Doc Comment Generator",
   "publisher": "SimpleCat",
-  "icon": "https://raw.githubusercontent.com/Marty0001/VS-Code-Doc-Comment-Generator/main/logo.png",
+  "icon": "logo.png",
   "description": "",
   "version": "0.0.2",
   "repository": {
