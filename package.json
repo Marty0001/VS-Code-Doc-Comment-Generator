@@ -1,6 +1,7 @@
 {
   "name": "doc-comment-generator",
   "displayName": "Doc Comment Generator",
+  "publisher": "SimpleCat",
   "description": "",
   "version": "0.0.1",
   "engines": {

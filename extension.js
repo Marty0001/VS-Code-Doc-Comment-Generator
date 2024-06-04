@@ -1,7 +1,6 @@
 const vscode = require('vscode');
 
 function activate(context) {
-    console.log('doc-comment-generator is now active!');
 
     // Shared function to generate and insert doc comments
     function generateDocCommentHandler() {
@@ -93,7 +92,6 @@ function generateDocComment(details, languageId, indent) {
 		docComment += `${indent} * @return {[TYPE]} - [DESCRIPTION]\n ${indent}*/\n`;
 		return docComment;
 	}
-
 	else if (languageId === 'python'){
 		let docComment = `${indent}"""\n${indent}[DESCRIPTION]\n\n${indent}Args:\n`;
 
@@ -114,7 +112,6 @@ function generateDocComment(details, languageId, indent) {
 		docComment += `\n${indent}Returns:\n${indent}\t([TYPE]): [DESCRIPTION]\n${indent}"""\n`;
 		return docComment;
 	}
-
 	else if (languageId === 'cpp' || languageId === 'c' || languageId === 'java'){
 		let docComment = `${indent}/**\n${indent} * ${details.name} - [DESCRIPTION]\n`;
 
