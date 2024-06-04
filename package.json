@@ -4,6 +4,10 @@
   "publisher": "SimpleCat",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marty0001/VS-Code-Doc-Comment-Generator.git"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
