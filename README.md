@@ -1,65 +1,27 @@
-# doc-comment-generator README
+<h1>Doc Comment Generator</h1>
 
-This is the README for your extension "doc-comment-generator". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Visual Studio code extension that generates basic documentation comment templates which conform to the standard practices for each supported language.
 
 ---
 
-## Working with Markdown
+![preview](https://github.com/Marty0001/VS-Code-Doc-Comment-Generator/assets/123718743/c7926c3f-0e11-495e-bdac-577a8c090e9b)
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+<h3>Supported Languages:</h3>
+<ul>
+  <li>Javascript</li>
+  <li>TypeScript</li>
+  <li>Python</li>
+  <li>C/C++</li>
+  <li>Java</li>
+  <li>PHP</li>
+</ul>
 
-## For more information
+<h3>Usage:</h3>
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Highlight a function/method in your code and either:
 
-**Enjoy!**
+- Open the command palette (Ctrl+Shift+P or Cmd+Shift+P) and select "Generate Doc Comment".
+
+- Right-click to open the context menu and choose "Generate Doc Comment".
